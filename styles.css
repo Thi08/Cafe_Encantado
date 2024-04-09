@@ -1,0 +1,328 @@
+.descricao,
+header {
+  width: 100%;
+  text-align: center;
+}
+.descricao img,
+footer img,
+header img {
+  max-width: 100%;
+  max-height: 100%;
+}
+#eventos p,
+.cards-produtos,
+.conteudo-descricao,
+.descricao,
+.main-titulo,
+header {
+  text-align: center;
+}
+#eventos p,
+#eventos table td {
+  background: #0f2433;
+}
+.card-eventos section,
+.conteudo-descricao,
+header div {
+  display: inline-block;
+}
+#eventos,
+#historia-form,
+form {
+  background-size: cover;
+}
+.card-eventos section,
+form {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#eventos p,
+.historia p,
+form {
+  font-size: 1.2vw;
+}
+#historia-form,
+.cards,
+.descricao,
+footer {
+  overflow: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  padding: 10px 5%;
+  height: 12vh;
+  background-image: url("https://static.vecteezy.com/ti/fotos-gratis/p1/22964952-mistico-floresta-cena-as-noite-como-digital-arte-gerar-ai-gratis-foto.jpg");
+}
+header figure {
+  height: 100%;
+  float: left;
+}
+header div p {
+  font-size: 20px;
+  color: #fff;
+}
+footer div nav ul li,
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+header nav {
+  float: right;
+  margin-top: 4vh;
+}
+header nav a {
+  text-decoration: none;
+  padding: 0 15px;
+  font-size: 25px;
+  color: #fff;
+}
+header nav ul li:hover,
+footer div nav ul li:hover {
+  transform: scale(1.2);
+  color: #8384df;
+  transition: 0.4s;
+}
+footer .contato a:hover,
+header nav a:hover {
+  color: #8384df;
+}
+.descricao {
+  padding: 100px 10%;
+  background: linear-gradient(to bottom, #24383d, #4e8286);
+  height: 70vh;
+  vertical-align: middle;
+}
+.conteudo-descricao {
+  font-size: 1.8vw;
+  line-height: 2.1vw;
+  width: 40%;
+  height: 100%;
+  padding: 0 20px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0, 0.5);
+}
+.historia p,
+.titulo-historia {
+  text-shadow: 2px 2px 2px #000;
+}
+.cafe-destaque {
+  color: #8384df;
+  font-family: "Dancing Script", cursive;
+  font-size: 2.7vw;
+}
+.descricao img {
+  width: 50%;
+  float: right;
+  border-radius: 20px;
+}
+.ver-mais {
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.4vw;
+}
+.ver-mais:hover {
+  font-size: 1.6vw;
+  transition: 0.4s;
+  color: #8384df;
+}
+#main {
+  background: linear-gradient(to bottom, #4e8286, #24383d);
+}
+.main-titulo {
+  text-decoration: underline;
+  font-size: 4vw;
+  padding: 15vh 0 5vh;
+  font-family: "Meow Script", cursive;
+}
+.cards-produtos {
+  padding: 50px;
+  width: 100%;
+}
+.cards section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 20px;
+  float: left;
+  width: 19%;
+  margin-right: 1%;
+  margin-bottom: 2%;
+  height: 55vh;
+}
+
+footer .contato,
+form {
+  float: right;
+}
+.cards section figure {
+  margin-bottom: 8px;
+}
+.cards section figure img {
+  width: 100%;
+  height: 30vh;
+  border-radius: 10px;
+  border: 1px solid #f1f1f1;
+}
+.cards section figure figcaption {
+  font-weight: 700;
+  text-align: center;
+  font-size: 0.9vw;
+  margin: 20px auto;
+}
+#eventos {
+  padding: 70px;
+  background-image: url("https://img.freepik.com/vetores-gratis/modelo-de-plano-de-fundo-com-estrelas-brilhantes-no-ceu-escuro_1308-40081.jpg?w=1380&t=st=1705498560~exp=1705499160~hmac=78ec1dbab95d22d0e1b1d11b10e04c1f119a0156fd5a07d37f1bdbda68a1b5a4");
+}
+#eventos p {
+  width: 60%;
+  margin: 0 auto;
+  line-height: 2vw;
+  letter-spacing: 2px;
+  padding: 30px;
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px #000;
+  border-radius: 20px;
+}
+#eventos table,
+#eventos table td,
+#eventos table th {
+  border: 1px solid #000;
+}
+.card-eventos section,
+.historia {
+  border-radius: 20px;
+  text-align: center;
+}
+#eventos table {
+  border-collapse: collapse;
+  font-size: 1vw;
+  margin: 50px auto;
+  width: 60%;
+}
+#eventos table td,
+#eventos table th {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+#eventos table th {
+  background: #071824;
+}
+.card-eventos {
+  padding: 70px;
+  background: linear-gradient(to bottom, #0f2433, #2e303b);
+  text-align: center;
+}
+.card-eventos section {
+  background-color: #f9f9f9;
+  padding: 30px;
+  margin: 0 4% 4% 0;
+  vertical-align: middle;
+  width: 25%;
+  height: 270px;
+}
+.card-eventos section p {
+  margin-top: 20px;
+  font-size: 0.8vw;
+}
+#historia-form {
+  padding: 120px;
+  background-image: url("https://static.vecteezy.com/ti/fotos-gratis/p1/22182684-magia-floresta-beleza-natureza-flores-plantas-arvores-neon-luzes-colorida-digital-ai-ilustracao-gratis-foto.jpeg");
+  background-position: center;
+  width: 100%;
+}
+.historia {
+  float: left;
+  width: 60%;
+  background-color: #0000007e;
+  padding: 10px;
+}
+.titulo-historia {
+  font-size: 2.3vw;
+  color: #fff;
+  margin-bottom: 2%;
+}
+.historia p {
+  line-height: 1.8vw;
+  font-weight: 700;
+  margin: 0 auto;
+  color: #fff;
+}
+form {
+  width: 30%;
+  background-image: url("https://i.pinimg.com/564x/ea/34/53/ea345305c5bf51645a64685e7b30b8c1.jpg");
+  padding: 30px;
+  border-radius: 8px;
+  margin-right: 5%;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+label {
+  font-weight: 700;
+}
+input::placeholder,
+textarea::placeholder {
+  font-size: 0.8vw;
+}
+aside form .area-checkbox,
+aside form .div-novidades {
+  width: 100%;
+  overflow: hidden;
+}
+aside form .area-checkbox .div-checkbox {
+  float: left;
+  width: 31%;
+  font-size: 1vw;
+}
+aside form .area-checkbox .div-checkbox input {
+  width: 20%;
+}
+aside form .div-novidades input {
+  width: 5%;
+}
+input[type="submit"] {
+  background: #58507e;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+input[type="submit"]:hover {
+  background: #38325a;
+}
+footer {
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+  background: #58507e;
+  padding: 50px 30%;
+}
+footer .contato h2 {
+  font-size: 1.5vw;
+  margin-bottom: 20px;
+}
+footer .contato a {
+  font-size: 1.3vw;
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+}
+footer .contato a:hover {
+  color: #fff;
+}
